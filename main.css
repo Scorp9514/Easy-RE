@@ -6,6 +6,7 @@
     text-align: center;
     font-size: 80px;
     margin: 0px 0px;
+    text-shadow: 5px 5px 2px gray;
 }
 
 .websiteDesc {
@@ -19,4 +20,81 @@
 
 body{
     background-color: antiquewhite;
+}
+
+#inputArea{
+    font-size: 30px;
+    display: flex;
+    width: 30%;
+    height: 20%;
+    resize: none;
+}
+
+#inputTitle{
+    padding: 5px;
+    font-size: 30px;
+    justify-content: end;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inputElements{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.convertBtns{
+    display: flex;
+    height: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px;
+}
+
+#notBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
+}
+
+#anyBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
+}
+
+#wordBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
+}
+
+#whiteBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
+}
+
+#boundaryBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
+    
+}
+
+#digitBtn{
+    padding: 20px 40px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 0px;
 }
