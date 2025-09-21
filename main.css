@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+
+
+
 .websiteTitle {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
@@ -18,11 +22,8 @@
     margin: 5px 0px;
 }
 
-body{
-    background-color: antiquewhite;
-}
 
-#inputArea{
+#outputArea{
     font-size: 30px;
     display: flex;
     width: 30%;
@@ -30,7 +31,7 @@ body{
     resize: none;
 }
 
-#inputTitle{
+#OutputTitle{
     padding: 5px;
     font-size: 30px;
     justify-content: end;
@@ -39,7 +40,7 @@ body{
     font-style: normal;
 }
 
-.inputElements{
+.OutputElements{
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -48,53 +49,60 @@ body{
 }
 
 .convertBtns{
-    display: flex;
+    
+    display: flex !important;
     height: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: center !important;
     gap: 10px;
     margin: 50px;
+    box-sizing: border-box;
+    display:inline-block;
 }
 
-#notBtn{
-    padding: 20px 40px;
-    font-size: 16px;
+.SPEC{
+    padding: 2vh 4vw;
+    font-size: 2vh;
     display: inline-block;
     line-height: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0.5px gray;
+    background-color: crimson;
+    color: azure;
 }
 
-#anyBtn{
-    padding: 20px 40px;
-    font-size: 16px;
+.WRD{
+    padding: 2vh 4vw;
+    font-size: 2vh;
     display: inline-block;
     line-height: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: coral;
 }
 
-#wordBtn{
-    padding: 20px 40px;
-    font-size: 16px;
+.QUANT{
+    padding: 2vh 4vw;
+    font-size: 2vh;
     display: inline-block;
     line-height: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkorange;
 }
 
-#whiteBtn{
-    padding: 20px 40px;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 0px;
+.inputQUANT{
+    width: 40px;
+    height: 30px;
 }
 
-#boundaryBtn{
-    padding: 20px 40px;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 0px;
-    
+.inputWRD{
+    width: 40px;
+    height: 30px;
 }
 
-#digitBtn{
-    padding: 20px 40px;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 0px;
+
+body{
+    background-color: antiquewhite;
 }

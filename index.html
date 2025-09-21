@@ -9,24 +9,45 @@
     <link rel="stylesheet" href="main.css" type="text/css">
     
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lilita+One&family=Changa+One&display=swap" rel="stylesheet">
+</head>
 <body>
     <h1 class="websiteTitle">Easy RE</h1>
     <h3 class="websiteDesc">A beginner friendly website to help coders understand/implement RE module fast!</h3>
 
-    <div class="inputElements">
-        <span id="inputTitle">Input</span>
-        <textarea id="inputArea" cols="40" rows="5"></textarea>
+    <div class="convertBtns">
+        <button id="notBtn" class="SPEC">Not</button>
+        <button id="orBtn" class="SPEC">Or</button>
+    </div>
+    <br>
+    <div class="convertBtns">
+        <button id="anyBtn" class="WRD">Any</button>
+        <button id="digitBtn" class="WRD">Digit</button>
+        <button id="whiteBtn" class="WRD">Whitespace</button>
+        <button id="boundaryBtn" class="WRD">Word Boundary</button>
+        <button id="wordBtn" class="WRD">Word Character</button>
+        <br>
+        <input type="text" class="inputWRD"> <span id="to">to</span>
+        <input type="text" class="inputWRD">
+        <button id="wrdBtn" class="WRD">Confirm</button>
+    </div>
+    <br>
+    <div class="convertBtns">
+        <button id="zomBtn" class="QUANT">0 or More</button>
+        <button id="oomBtn" class="QUANT">1 or More</button>
+        <button id="zooBtn" class="QUANT">0 or 1</button>
+        <br>
+        <input type="text" class="inputQUANT"> <span id="to">to</span>
+        <input type="text" class="inputQUANT">
+        <button id="quantBtn" class="QUANT">Confirm</button>
+        
     </div>
 
-    <div class="convertBtns">
-        <button id="notBtn">Not</button>
+    <div class="OutputElements">
+        <span id="OutputTitle">Output</span>
+        <textarea id="outputArea" cols="40" rows="5"></textarea>
     </div>
-    <div class="convertBtns">
-        <button id="anyBtn">Any</button>
-        <button id="digitBtn">Digit</button>
-        <button id="whiteBtn">Whitespace</button>
-        <button id="boundaryBtn">Word Boundary</button>
-        <button id="wordBtn">Word Character</button>
-    </div>
+
+
+    <script src="addBlocks.js"></script>
 </body>
 </html>
